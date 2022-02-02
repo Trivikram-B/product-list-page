@@ -1,1 +1,58 @@
 /* list css */
+@font-face {
+    font-family: "Montserrat";
+    src: url('../fonts/Montserrat/Montserrat-VariableFont_wght.ttf');
+  }
+  
+  /* Element Selector */
+  body{
+    font-family: Montserrat;
+    margin: 0;
+  }
+
+  .ml5{
+    margin-left: 5px !important;
+  }
+  
+  .textCenter{
+    text-align: center !important;
+  }
+
+  .primaryNav{
+    width: calc(100% - 130px);
+    padding-top:20px;
+    text-align: right;
+  }
+
+  .primaryNav ul li{
+    display: inline;
+    padding: 0 15px;
+    list-style: none;
+  }
+
+  [type='button']{
+    background-color: lightcyan;
+    border: lightgreen;
+    font-size: 24px;
+    padding: 10px 26px; /* top right bottom left  */
+  }
+
+  main{
+    border-top: 1px solid #ddd;
+  }
+  
+  a{ 
+    text-decoration: none;
+  }
+  
+  /* Pseudo Selector */
+  a:hover{
+    color: darkblue;
+    text-decoration: underline;
+  }
+  
+  a:visited{
+    text-decoration: underline;
+  }
+  
+  
